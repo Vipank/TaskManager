@@ -1,0 +1,136 @@
+.header {
+  height: 20vh;
+  width: 100%;
+  background-color: #E9EEF6;
+  padding-top: 3%;
+}
+
+.card-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.card-wrapper{
+  width: 100%; 
+  height: 200px; 
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  /* padding: 10px 10px; */
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  width: auto;
+  height: 70%;
+  /* display: flex;
+  justify-content: center; */
+  overflow: auto;
+}
+.bottom-container {
+  height: 80vh;
+  width: 100vw;
+  background-color: #F6F7F8;
+}
+
+.custom-border {
+  width: auto;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.side-nav {
+  max-height: 100%;
+  min-height: 100%;
+  width: 20%;
+  background-color: #fffbfb;
+  float: left;
+  padding: 2%;
+  border-right: 1px solid black;
+  overflow-y: scroll;
+}
+.meeting-notes-container {
+  height: 100%;
+  width: 80%;
+  float: right;
+  padding: 40px 100px;
+  background-color: #F6F7F8;
+}
+.meeting-notes {
+  width: 80%;
+  max-height: 90%;
+  background-color: white;
+  padding: 5px;
+  overflow: auto;
+}
+.notes-header {
+  width: 100%;
+  background-color: rgb(233 238 246);
+  height: 6%;
+}
+.editor {
+  max-height: 88%;
+  min-height: 88%;
+  float: right;
+  width: 100%;
+  overflow: scroll;
+}
+.save-button {
+  height: 2%;
+  float: right;
+}
+.task-list {
+  margin-top: 1%;
+}
+.right-nav {
+  max-height: 100%;
+  width: 10%;
+  background-color: #fffbfb;
+  float: right;
+  padding: 2%;
+  border-right: 1px solid black;
+  overflow-y: scroll;
+}
+.progress-div-completed {
+  background-color: #67df67
+}
+.progress-div-not-completed {
+  background-color: rgb(236, 76, 76) ;
+}
+.date-selecter-container{
+  width: 70%;
+  position: absolute;
+  bottom: 80vh;
+}
+.date-selecter {
+  width: 20%;
+  height: 100%;
+  background-color:rgb(216 216 216);
+  margin-left: 60%;
+}
+
+.get-storage-data-button {
+     float: right;
+     width: 30%;
+     position: absolute;
+     bottom: 80vh;
+     left: 70%;
+}
+.create-task-button {
+
+}
